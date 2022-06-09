@@ -1,0 +1,10 @@
+
+.header
+{
+    /* background-color: red; */
+    height: 70px;
+    /* width: 100px; */
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid lightgray;
+}

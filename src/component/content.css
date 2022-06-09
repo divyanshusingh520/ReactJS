@@ -1,0 +1,463 @@
+
+.content
+{   
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: blue; */
+    height: 600px;
+    width: 120px;
+    border: 1px solid lightgray;
+    
+}
+ 
+.dashboard1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inventory1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orders1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shipping1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.channel1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1
+{
+    background-color: blue;
+    height: 70px;
+    /* width: 300px; */
+    display: flex;
+    /* background-color: white; */
+    font-size: small;
+    width: 1200px;
+
+}
+.content .dashboard1
+{
+    /* background-color: blue; */
+    height: 30px;
+    width: 70px;
+    margin: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content .inventory1
+{
+    /* background-color: blue; */
+    height: 30px;
+    width: 70px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content .orders1
+{
+    /* background-color: blue; */
+    height: 30px;
+    width: 70px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content .shipping1
+{
+    /* background-color: blue; */
+    height: 30px;
+    width: 70px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content .channel1
+{
+    /* background-color: blue; */
+    height: 30px;
+    width: 70px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.main
+{
+    /* background-color: yellow; */
+    height: 200px;
+    /* width: 300px; */
+    display: flex;
+    /* background-color: white; */
+    font-size: small;
+}
+.content1
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: left;
+    align-items: center;
+    background-color: lightgrey;
+    height: 90px;
+    width: 1400px;   
+}
+.content2
+{
+    display: flex;
+    /* justify-content: center; */
+    
+    justify-content: centre;
+    background-color: white;
+    align-items: flex-start;
+    justify-content: left;
+    align-items: center;
+    height: 70px;
+    width: 1200px;
+    
+    
+    
+}
+.importorders1 .importorders
+{
+    height: 40px;
+    width: 100px;
+    /* background-color: red; */
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .importorders
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 80px; 
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.accept1 .accept
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px; 
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-right: 15px; 
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+.print1 .print
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px; 
+    border: 1px solid lightgrey;
+    border-radius: 3px; 
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;  
+}
+
+.pending
+{
+    
+    height: 40px;
+    width: 80px;
+    color: blue;
+    margin: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.accepted
+{
+    
+    height: 40px;
+    width: 80px;
+    margin: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.awbcreated
+{
+    
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.readytoship
+{
+
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shipped
+{
+    
+    height: 40px;
+    width: 80px;
+    margin: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.completed
+{
+    
+    height: 40px;
+    width: 80px;
+    margin: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cancelled
+{
+    
+    height: 40px;
+    width: 80px;
+    margin: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content3
+{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: left;
+    background-color: lightgrey;
+    justify-content: space-between;
+    height: 50px;
+    width: 1400px;
+    border: 1px solid lightgrey;
+    font-weight: bold;
+    
+}
+.channel
+{
+    
+    height: 40px;
+    width: 80px;    
+}
+.orderno
+{
+    
+    height: 40px;
+    width: 80px;    
+}
+.orderdate
+{
+    
+    height: 40px;
+    width: 80px;    
+}
+.city
+{
+    
+    height: 40px;
+    width: 80px;    
+}
+.customername
+{
+    
+    height: 40px;
+    width: 80px;    
+}
+.ordervalue
+{
+    
+    height: 40px;
+    width: 80px;    
+}
+.status
+{
+    
+    height: 40px;
+    width: 80px;    
+}
+.operation
+{
+    
+    height: 40px;
+    width: 80px;    
+}
+.first
+{
+    background-color:purple;
+    height: 100px;
+    width: 200px;
+}
+.mainlower
+{
+    display: flex;
+    background-color: aqua;
+    height: 100px;
+    width: 1400px;
+}
+.mainlower1
+{
+    background-color: blue;
+    height: 100px;
+    width: 1400px;
+    
+}
+
+.print
+{
+
+}
+.content4
+{
+    display: flex;
+    /* justify-content: center; */
+    
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    height: 40px;
+    width: 1400px;
+    border: 1px solid lightgrey;
+        
+}
+.content4 .status
+{
+    color: green;
+    height: 20px;
+    width: 60px;
+    background-color: lightgrey ;
+    border: 1px solid green;
+}
+.content5 .status
+{
+    color: green;
+    height: 20px;
+    width: 60px;
+    background-color: lightgrey ;
+    border: 1px solid green;
+}
+.content6 .status
+{
+    color: green;
+    height: 20px;
+    width: 60px;
+    background-color: lightgrey ;
+    border: 1px solid green;
+}
+.content4 .orderno
+{
+    color: blue;
+}
+.content5 .orderno
+{
+    color: blue;
+}
+.content6 .orderno
+{
+    color:blue;
+}
+
+.content5
+{
+    display: flex;
+    /* justify-content: center; */
+    
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    height: 40px;
+    width: 1400px;
+    border: 1px solid lightgrey;
+        
+}
+.content6
+{
+    display: flex;
+    /* justify-content: center; */
+    
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    height: 40px;
+    width: 1400px;
+    border: 1px solid lightgrey;
+        
+}
+.footer
+{
+    /* background-color: yellow; */
+    height: 50px;
+    border: 1px solid lightgrey;
+}
+.content .dashboard1 img
+{
+    height: 30px;
+    width: 300px;
+    background-color: red;
+}
+.content .inventory1 img
+{
+    height: 30px;
+    width: 300px;
+    background-color: red;
+}
+.content .orders1 img
+{
+    height: 30px;
+    width: 300px;
+    background-color: red;
+}
+.content .shipping1 img
+{
+    height: 30px;
+    width: 300px;
+    background-color: red;
+}
+.content .channel1 img
+{
+    height: 30px;
+    width: 300px;
+    background-color: red;
+}
+
+.footerdown
+{
+    height: 200px ;
+    background-color: lightgrey;
+}
